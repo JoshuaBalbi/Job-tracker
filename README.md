@@ -119,14 +119,14 @@ npm install
 
 ```
 
-###3️⃣ Install Backend Dependencies
+### 3️⃣ Install Backend Dependencies
 
 ```bash
 cd backend
 npm install
 ```
 
-###4️⃣ Add Firebase Credentials
+### 4️⃣ Add Firebase Credentials
 Inside the backend/ folder, add your Firebase Admin SDK key file:
 
 ```bash
@@ -148,7 +148,7 @@ Start Frontend Server
 npm run dev
 ```
 
-###🔌 API Routes
+### 🔌 API Routes
 ```bash
 GET    /api/health
 GET    /api/applications
