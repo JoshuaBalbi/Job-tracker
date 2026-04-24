@@ -1,16 +1,101 @@
-# React + Vite
+# Job Tracker 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **Job Application Tracker** built with **React**, **Bootstrap**, **Node.js**, **Express**, and **Firebase Firestore**.
 
-Currently, two official plugins are available:
+This application helps users organize and manage their job search by tracking applications, interview progress, offers, rejections, and notes — all through a modern responsive dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🌐 Live Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Job Tracker allows users to:
 
-## Expanding the ESLint configuration
+- Add new job applications
+- Edit existing applications
+- Delete applications
+- Search applications instantly
+- Filter by application status
+- Sort by newest / oldest date
+- View detailed notes in modal popups
+- Track interview and offer progress on dashboard analytics
+- Persist data in the cloud using Firebase Firestore
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- React Router DOM
+- Bootstrap 5
+- CSS3
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- Firebase Firestore
+
+### Other Tools
+- Vite
+- REST APIs
+- Git / GitHub
+
+---
+
+## 📸 Features
+
+### Dashboard Page
+- Total Applications
+- Applied Count
+- Interview Count
+- Rejected Count
+- Interview Rate
+- Offer Rate
+- Recent Applications Table
+
+### Applications Page
+- Add Application Modal
+- Edit Application Modal
+- Delete Confirmation
+- Search Bar
+- Status Filter
+- Sort Controls
+- View Notes Popup
+- Toast Notifications
+
+---
+
+## 🧠 What I Learned
+
+This project helped strengthen my understanding of:
+
+- React component architecture
+- Hooks (`useState`, `useEffect`, `useMemo`)
+- Controlled forms
+- State management
+- Conditional rendering
+- REST API integration
+- Express backend development
+- CRUD operations
+- Firebase Firestore integration
+- Responsive UI design with Bootstrap
+
+---
+
+## 🏗 Project Structure
+
+```bash
+job-tracker/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+│── backend/
+│   ├── server.js
+│   ├── .env
+│   └── serviceAccountKey.json
