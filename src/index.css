@@ -1,0 +1,121 @@
+body {
+  background: #f4f6f9;
+  color: #212529;
+}
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.app-hero {
+  background: linear-gradient(135deg, #ffffff, #eef4ff);
+  border-radius: 18px;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+}
+
+.btn {
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.application-table-wrapper {
+  max-height: 520px;
+  overflow: auto;
+}
+
+.application-table {
+  table-layout: fixed;
+  min-width: 1000px;
+}
+
+.application-table thead th {
+  background: #212529;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 1rem;
+  white-space: nowrap;
+}
+
+.application-table tbody td {
+  padding: 1rem;
+  vertical-align: middle;
+  color: #212529;
+}
+
+.application-table tbody tr:hover {
+  background-color: #f8f9fc;
+}
+
+.application-table th:nth-child(1),
+.application-table td:nth-child(1) {
+  width: 16%;
+}
+
+.application-table th:nth-child(2),
+.application-table td:nth-child(2) {
+  width: 20%;
+}
+
+.application-table th:nth-child(3),
+.application-table td:nth-child(3) {
+  width: 12%;
+}
+
+.application-table th:nth-child(4),
+.application-table td:nth-child(4) {
+  width: 14%;
+}
+
+.application-table th:nth-child(5),
+.application-table td:nth-child(5) {
+  width: 16%;
+}
+
+.application-table th:nth-child(6),
+.application-table td:nth-child(6) {
+  width: 12%;
+}
+
+.application-table th:nth-child(7),
+.application-table td:nth-child(7) {
+  width: 16%;
+}
+
+.action-btn {
+  min-width: 70px;
+}
+
+.notes-btn {
+  min-width: 95px;
+  font-weight: 600;
+}
+
+.notes-text {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  color: #343a40;
+}
+
+.dashboard-hero {
+  background: linear-gradient(135deg, #ffffff, #eef4ff);
+  border-radius: 18px;
+}
+
+.progress {
+  background-color: #e9ecef;
+  border-radius: 999px;
+}
+
+.progress-bar {
+  border-radius: 999px;
+}
