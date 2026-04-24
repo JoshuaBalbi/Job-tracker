@@ -107,7 +107,7 @@ job-tracker/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/job-tracker.git
+git clone https://github.com/JoshuaBalbi/job-tracker.git
 cd job-tracker
 ```
 
