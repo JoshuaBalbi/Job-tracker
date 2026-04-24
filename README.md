@@ -175,6 +175,23 @@ DELETE /api/applications/:id
 - Role-based admin dashboard for recruiters or team use  
 - AI-powered job matching or resume suggestions
 
+## 🎥 Demo Video
+
+Watch a quick walkthrough of the Job Tracker application here:
+
+
+
+This demo showcases:
+
+- Dashboard analytics and metrics  
+- Adding new job applications  
+- Editing and deleting entries  
+- Search, filtering, and sorting  
+- Notes modal popups  
+- Full-stack data persistence with Node.js + Firebase  
+
+---
+
 ## 📌 Why I Built This
 
 As someone actively pursuing software engineering opportunities, I wanted to build a practical real-world application that combines frontend, backend, and database technologies into one polished project.
