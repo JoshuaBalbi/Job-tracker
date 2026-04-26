@@ -180,7 +180,7 @@ DELETE /api/applications/:id
 Watch a quick walkthrough of the Job Tracker application here: 
 
 <p align="center">
-  <img src="JOBTRACKERDEMO.gif" width="400" />
+  <img src="JOBTRACKERDEMO.gif"/>
 </p>
 
 This demo showcases:
