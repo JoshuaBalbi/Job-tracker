@@ -177,9 +177,11 @@ DELETE /api/applications/:id
 
 ## 🎥 Demo Video
 
-Watch a quick walkthrough of the Job Tracker application here:
+Watch a quick walkthrough of the Job Tracker application here: 
 
-
+<p align="center">
+  <img src="JOBTRACKERDEMO.gif" width="400" />
+</p>
 
 This demo showcases:
 
